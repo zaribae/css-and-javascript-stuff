@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Learning Page </title>
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script>
+        function myFunction() {
+            let x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</head>
+<body>
+    <p>This simple HTML document.</p> 
+    This JavaScript function will capitalize my name.
+    <p>Enter your name: <input type="text" id="fname" onChange="myFunction()"></p> 
+
+    <!-- Breaking Line // Paragraph Spacing -->
+    <p>
+        This is line 1. <br>
+        This is line 2.
+        <!-- Non Breaking Space-->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is line 3.
+    </p>
+
+    <!-- Header Tags -->
+    <h1> Header 1 </h1>
+    <h2> Header 2 </h2>
+    <h3> Header 3 </h3>
+    <h4> Header 4 </h4>
+    
+    <!-- Text Formatting and Decoration -->
+    <p>
+        <strong>Bold Text</strong> <br>
+        <em>Italic Text</em> <br>
+        <u>Underlined Text</u> <br>
+        <strike>Strike Text</strike> <br>
+        <u><strong><em>Bold, Italic, and Underlined Text</em></strong></u>
+    </p>
+
+    <!-- Inline Text Formatting Old Ways -->
+    <h4><font face="arial" size="32" color="blue">Header 4</font></h4>
+
+    <!-- Unordered Lists -->
+    <h3> Favorite Sports </h3>
+    <ul>
+        <li>Football</li>
+        <li>Basketball</li>
+        <li>Badminton</li>
+        <li>ESports</li>
+    </ul>
+
+    <!-- Ordered Lists -->
+    <h3> Favorite Foods </h3>
+    <ol>
+        <li>Nasi</li>
+        <li>Ayam</li>
+        <li>Tempe</li>
+        <li>Tahu</li>
+        <li>Nasi Uduk</li>
+    </ol>
+
+    <!-- Image Insertion -->
+    <h1> Vacation Pictures </h1>
+    <p>
+        <!-- Relative File Referencing and Link Creation -->
+        <a href="http://www.miami.com"><img src="./content/FL.jpg" alt="Florida" width="375" height="250"></a>
+        <a href="http://www.lasvegas.com"><img src="./content/LV.jpg" alt="Las Vegas" width="375" height="250"></a>
+        <a href="http://www.nyc.com"><img src="./content/NY.jpg" alt="New York" width="375" height="250"></a>
+
+        <!-- Absolute File Referencing -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Houston_night.jpg" alt="Houston" width="375" height="250">
+    </p>
+
+    <!-- Embedding Videos -->
+    <video width="600" controls>
+        <source src="./content/ya.mp4" type="video/mp4">
+    </video>
+
+    <!-- Text Link Creation -->
+    <p>
+        <a href="http://www.miami.com" target="_blank">florida.com</a> <br>
+        <a href="http://www.miami.com" target="_blank">nyc.com</a>
+    </p>
+
+    
+    
+</body> 
+</html>
